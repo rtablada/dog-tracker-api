@@ -21,6 +21,8 @@ Route::get('/breeds', function() {
     ];
 });
 
+Route::resource('/training-types', 'TrainingType');
+
 
 
 
